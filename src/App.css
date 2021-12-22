@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Rubik&display=swap');
+
+main {
+    display: flex;
+    margin-top: 42px;
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: 100;  
+  margin-bottom: 0px;
+}
+
+img {
+    width: 500px;
+}
+
+.login-button:hover {
+    background-color: #525864;
+    transition: 500ms;
+}
+
+.login img {
+    width: 15px;
+    margin-right: 5px;
+    height: auto;
+}
+
+button {
+    background:#04C35C;
+    border:0;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width: 100%;
+    border-radius: 7px;
+    margin:10px auto;
+    display:block;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: #4bc584;
+    transition: 500ms;
+}
+
+form {
+    display:block;
+    width: 100%;
+}
+
+p {
+    font-size:14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.inputs input {
+    width: 400px;
+    height: 25px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.inputs input:hover {
+    border: 1px solid #04C35C;
+    transition: 500ms;
+}
+
+input {
+    display: flex;
+    margin: auto;
+}
+
+.login-button {
+    background-color: #1A202C;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.register {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+}
+
+.block input {
+    margin-right: 10px;
+}
+
+.rem-check {
+    display: flex;
+}
+
+.block a {
+    margin: auto 0px;
+}
+
+.block {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 840px) {
+    img {
+        display: none;
+    }
+}
