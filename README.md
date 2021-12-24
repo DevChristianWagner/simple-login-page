@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+<h1 align="center">Simple Login Page</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+    🌱 Apenas o Front-End de uma pagina simples e leve de Login. 🌱 </br></br></br>
+</h3>
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">🏗️ Simple Login Page 🛹 Projeto Pronto 🏗️</p> 
 
-### `npm start`
+<p align="center">
+  <a href="#sobre">Sobre</a> ·
+  <a href="#tecnologias">Tecnologias</a> ·
+  <a href="#pre-req">Pré requisitos</a> ·
+  <a href="#licença">Licença</a> ·
+  <a href="#autor">Autor</a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="https://media.discordapp.net/attachments/858863812430266398/923275435947745320/gif-login.gif?width=960&height=411" align="center" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+<div id="sobre"></div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2> 🪂 Sobre o projeto 🪂 </h2>
 
-### `npm run build`
+Esse projeto foi criado como forma de aprendizado. Projeto cujo foi sugerido em forma de desafio dentro da comunidade no discord [Codelândia](https://discord.com/invite/QevDJqCzaY).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Acesse todos os desafios da Codelandia clicando [aqui](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=624%3A2).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<div id="tecnologias"></div>
 
-### `npm run eject`
+<h2>💻 Tecnologias utilizadas 💻</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div align="center">
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="100px" />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="100px" />
+</div> </br></br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="15px" /> REACT é uma biblioteca JavaScript front-end gratuita e de código aberto para construir interfaces de usuário baseadas em componentes de Interface. É mantido pela Meta e uma comunidade de desenvolvedores e empresas individuais.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="15px" /> CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets, onde se define estilos para seu projeto web. Com efeitos de transição, imagem, imagem de fundo/Background e outros, que dão um estilo novo e elegante a seus projetos web. Ou em todos os aspectos de design do layout da página.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div id="pre-req"></div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2>✈️ Pré Requisitos ✈️</h2>
 
-### Code Splitting
+Para iniciar a aplicação é necessario ter em sua maquina  o  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="15px" /> [git](https://git-scm.com/),  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="15px" /> [NodeJs](https://nodejs.org/en/) e o  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="15px" /> [Npm](https://www.npmjs.com/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### ⏳ Rodando o projeto ⏳
 
-### Analyzing the Bundle Size
+```bash 
+# Clone o repositório
+$ git clone https://github.com/DevChristianWagner/simple-login-page/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Acesse a pasta do projeto
+$ cd simple-login-page/
 
-### Making a Progressive Web App
+# Instale as dependencias
+$ npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# De start no projeto
+$ npm start
 
-### Advanced Configuration
+# O projeto será iniciado em: http://localhost:3000/
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<div id="licença"></div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<h1>⛵ Licença ⛵</h1>
 
-### `npm run build` fails to minify
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) <2021> <Christian Wagner F. de Souza>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+<div id="autor"></div>
+
+<h1>🚀 Autor 🚀</h1>
+
+Feito por Christian Wagner F. de Souza.
+
+---
+
+Feito com ☕. 
